@@ -1,0 +1,55 @@
+import './Nav.css';
+import './CardMQ.css';
+import logo from './logo1.png'
+function Nav(){
+    return(
+        <div className="navcontainer">
+        <div className="navbar">
+            <div><img className="logo" id="logo" src={logo} alt="imagehere"/></div>
+            <div><input className="search-box" type="text" placeholder="Search Song!"/></div>
+        </div>
+    </div>
+    );
+}
+export default Nav
+
+Nav Component css
+
+.navcontainer{
+    background-image: linear-gradient(to right,  
+    #771d4a,red , #ec6ead);
+    box-shadow:2px 2px 34px -10px #000; 
+}
+.navbar{
+    margin: 0px 60px 0px 50px; 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+ .logo1{
+    animation: translate .5s alternate infinite ;
+}
+@keyframes translate{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
+}
+input{
+    margin-top: 16px;
+    padding: 10px 20px 10px 20px; 
+    border-radius: 15px;
+    border-color: crimson;
+    background: transparent;
+    text-align: center;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(34, 252, 241);
+    opacity: 1; /* Firefox */
+  }
