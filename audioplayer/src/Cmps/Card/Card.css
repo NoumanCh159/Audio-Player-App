@@ -40,3 +40,52 @@ audio{
     margin-left: 13px;
     display: flex;
 }
+
+button{
+    padding: 7px;
+    background-color: transparent;
+    text-decoration: none;
+    margin-top:7px;
+    border: none;
+    outline: none; 
+}
+button:hover{
+    background-color: rgb(224, 220, 220);
+    border-radius: 50%;
+    transition: background-color .5s;
+}
+progress::-webkit-progress-value {
+    background: red;
+  }
+#btnVol,#btnPlay{
+    width: 27px;
+    height: auto;
+}
+#btnSol{
+    width: 23px;
+    height: auto;
+}
+#movbtnSol{
+    margin-left: 10px;
+}
+#seek{
+    width: 29%;
+    margin: 19px 0px 0px 13px;
+}
+.timer{
+    padding-top:19px;
+    font-size: 15px;
+    min-width: fit-content;
+    word-wrap: normal;
+}
+#volseek{
+    position: absolute;
+    transform: rotate(90deg);
+    display: none;
+    left: 56%;
+    bottom: 0%;
+    width: 100px;
+}
+#BtnVol:hover #volseek{
+    display: block;
+}
