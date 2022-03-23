@@ -47,7 +47,7 @@ input{
     border-radius: 15px;
     border-color: crimson;
     background: transparent;
-    text-align: center;
+    
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(34, 252, 241);
