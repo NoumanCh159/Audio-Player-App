@@ -46,7 +46,7 @@ input{
     padding: 10px 20px 10px 20px; 
     border-radius: 15px;
     border-color: crimson;
-    background: transparent;
+    
     text-align: center;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
