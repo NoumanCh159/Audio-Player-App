@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(minimal.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-size: 16px; */
+    /* background-color: rgb(17, 17, 17); */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/* Navbar CSS */
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.2rem 5rem;
+    background-color: #FFF8F3;
+}
+
+.navigation_area {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.navigation_area li {
+    display: inline-block;
+    padding: 0px 15px;
+    /* text-transform: uppercase; */
+}
+
+.navigation_area li a {
+    transition: 0.3s;
+    color: #4A4A4A;
+}
+
+.navigation_area li a:hover {
+    color: red;
+}
+
+.contactus_btn {
+    color: #FFF8F3;
+    font-size: 16px;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    padding: 9px 19px;
+    border-radius: 20px;
+    background: #4A4A4A;
+    margin-right: -30px;
+}
+
+.site_logo {
+    margin-right: auto;
+}
+
+
+
+
+
+/* Front View CSS */
+
+.front_view {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background-color: #FFF0E6;
+    height: 87vh;
+}
+
+.frontheading {
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2.9rem;
+    color: #4A4A4A;
+}
+
+.ilstrn {
+    max-width: 80%;
+    height: auto;
+    margin-top: 6.5rem;
+    margin-left: 2rem;
+}
+
+.booknow_btn {
+    width: 8rem;
+    height: 2.1rem;
+    margin-inline: auto;
+    margin-top: -11rem;
+    color: #4A4A4A;
+    font-size: 1.2rem;
+    background-color: #FCB3B3;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 0.2rem 0;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+/* Services Provide CSS */
+
+.services_provide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF8F3;
+    height: 10rem;
+    justify-content: center;
+}
+
+.services_provide h3 {
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+/* Services Details CSS */
+
+.services_details {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+
+
+
+/* Manicure CSS */
+.manicure {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-area: 
+    'h1 img'
+    'p img';
+}
+
+.manicure_img {
+    max-width: 40%;
+    height: auto;
+}
+
+
+
+
+
+
+/* Pedicure CSS */
+
+.pedicure {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-area: 
+    'img h1'
+    'img p';
+}
+
+.pedicure_img {
+    max-width: 40%;
+    height: auto;
+}
+
+
+
+
+
+
+/* Hair Color CSS */
+
+.hair_color {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-area: 
+    'h1 img'
+    'p img';
+}
+
+.haircolor_img {
+    max-width: 40%;
+    height: auto;
+}
+
+
+
+
+
+
+/* Nail Care CSS */
+
+.nail_care {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-area: 
+    'img h1'
+    'img p';
+}
+
+.nailcare_img {
+    max-width: 40%;
+    height: auto;
+}
+
+
+
+
+
+
+/* Feedback CSS */
+
+.feedback {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF8F3;
+    height: 10rem;
+    justify-content: center;
+}
+
+.feedback h3 {
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+/* Feedback Form CSS */
+
+.feedback_form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #FFF0E6;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+input {
+    padding: 0.5rem;
+    width: 18rem;
+    height: 2rem;
+    /* border: none; */
+    border-radius: 0.4rem;
+    border: 2px solid rgb(190, 207, 207);
+    color: rgb(43, 43, 42);
+    outline: none;
+}
+
+.form {
+    margin: 0.7rem auto;
+}
+
+#e-mail {
+    width: 38rem;
+}
+
+#remarks {
+    width: 38rem;
+    height: 5rem;
+}
+
+.names {
+    margin: 0rem 1rem;
+}
+
+#submit_btn {
+    width: 5rem;
+    height: 2rem;
+    color: rgb(224, 223, 223);
+    background-color: rgb(84, 86, 240);
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+#submit_btn:hover {
+    background-color: rgb(123, 175, 243);
+    /* transition: 0.2s; */
+}
