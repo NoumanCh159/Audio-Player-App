@@ -1,0 +1,157 @@
+/*  */
+@media only screen and (min-width:1231px) and (max-width: 1350px) {
+    .AudioPage {
+        background-image: linear-gradient(to right, #de6262 , #ffb88c ); 
+    }
+    .AudioGroup > .AudioTile{
+        width: 260px;
+    } 
+    audio{
+        width: 260px;
+    }
+}
+/*  */
+@media only screen and (min-width:1151px) and (max-width: 1230px) {
+    .AudioPage {
+        background-image: linear-gradient(to right, #de6262 , #ffb88c ); 
+    }
+    .AudioGroup > .AudioTile{
+        width: 240px;
+    } 
+    audio{
+        width: 240px;
+    }
+}
+/*  */
+/*  */
+@media only screen and (min-width:1031px) and (max-width: 1150px) {
+    .AudioPage {
+        background-image: linear-gradient(to right, #de6262 , #ffb88c ); 
+    }
+    .AudioGroup > .AudioTile{
+        width: 210px;
+    } 
+    audio{
+        width: 210px;
+    }
+}
+/*  */
+/*  */
+@media only screen and (min-width:791px) and (max-width: 1030px) {
+    .AudioPage {
+        background-image: linear-gradient(to right, #de6262 , #ffb88c ); 
+    }
+    .AudioGroup > .AudioTile{
+        width: 25%;
+        height: 350px;
+        margin-top: 0px;
+    } 
+    .AudioImage{
+        height: 291px;
+    }
+    audio{
+        width: 100%;
+    }
+    .navbar{
+        margin-bottom: 15px;
+    }
+}
+/*  */
+@media only screen and (min-width:641px) and (max-width: 790px) {
+    .AudioPage {
+        background-image: linear-gradient(to right, #de6262 , #ffb88c );
+    }
+    .AudioGroup > .AudioTile{
+        width: 280px;
+    } 
+    audio{
+        width: 100%;
+    }
+    .navbar{
+        margin-bottom: 15px;
+    }
+}
+/*  */
+@media only screen and (min-width:600px) and (max-width: 640px) {
+    .AudioPage {
+        background-image: linear-gradient(to right, #de6262 , #ffb88c ); 
+    }
+    .AudioGroup > .AudioTile{
+        width: 260px;
+    } 
+    audio{
+        width: 100%;
+    }
+    .navbar{
+        margin-bottom: 15px;
+    }
+}
+
+/*  */
+/*  */
+@media only screen and (min-width:480px) and (max-width: 599px) {
+    .AudioPage {
+        background-image: linear-gradient(to right, #de6262 , #ffb88c ); 
+    }
+    .AudioGroup > .AudioTile{
+        width: 200px;
+        height: 300px;
+    } 
+    .AudioImage{
+        height: 241px;
+    }
+    audio{
+        width: 100%;
+    }
+    .navbar{
+        margin-bottom: 15px;
+    }
+}
+/*  */
+@media only screen and (min-width:376px) and (max-width: 479px) {
+    .AudioPage {
+        background-image: linear-gradient(to right, #de6262 , #ffb88c ); 
+    }
+    .AudioGroup > .AudioTile{
+        width: 280px;
+    } 
+    audio{
+        width: 100%;
+    }
+    .navbar{
+        margin-bottom: 15px;
+    }
+    .heading{
+        font-size: 31px;
+        margin-top: 0px;
+        margin-bottom: -10px;
+    }
+}
+/*  */
+/*  */
+@media only screen and (max-width: 375px) {
+    .AudioPage {
+        background-image: linear-gradient(to right, #de6262 , #ffb88c );
+    }
+    .AudioGroup > .AudioTile{
+        width: 70%;
+        margin-left: 25px;
+    } 
+    audio{
+        width: 100%;
+    }
+    .navbar{
+        margin-bottom: 38px;
+        padding: 6px;
+    }
+    input{
+        padding: 10px 0px 10px 0px;
+        margin-left: 25px;
+    }
+    .heading{
+        font-size: 27px;
+        margin-top: -20px;
+        margin-bottom: -10px;
+    }
+    
+}
